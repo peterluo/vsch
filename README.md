@@ -9,14 +9,25 @@ This is a spider for fetch HKEX stock data.
 # Run
 
 ```
- pip install scrapy
+ $ pip install scrapy
 ```
 ```
- pip install scrapyd
+ $ pip install scrapyd
 ```
 ```
- pip install scrapyd-client
+ $ pip install scrapyd-client
 ```
 ```
- pip install pymysql
+ $ pip install pymysql
 ``` 
+In project root path, execute the following command:
+```
+ $ scrapyd
+```
+```
+ $ scrapyd-deploy server -p vsch
+```
+```
+ $ curl http://localhost:6800/schedule.json -d project=vsch -d spider=hk_capital_spider
+```
+
