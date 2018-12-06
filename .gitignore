@@ -6,4 +6,4 @@ eggs/*
 project.egg-info/*
 stock.json
 *.pyc
-.DS_Store/*
+.DS_Store
