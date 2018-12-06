@@ -1,0 +1,9 @@
+.idea/*
+.vscode/*
+build/*
+dbs/*
+eggs/*
+project.egg-info/*
+stock.json
+*.pyc
+
