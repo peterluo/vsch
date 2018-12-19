@@ -7,3 +7,4 @@ project.egg-info/*
 stock.json
 *.pyc
 .DS_Store
+twistd.pid
