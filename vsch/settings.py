@@ -100,5 +100,5 @@ MYSQL_HOST = 'localhost'
 MYSQL_PORT = 3306
 MYSQL_DB = "stock_kit"
 MYSQL_USER_NAME = "root"
-MYSQL_PASSWORD = "****"
+MYSQL_PASSWORD = "***"
 MYSQL_CHARSET = "utf8"

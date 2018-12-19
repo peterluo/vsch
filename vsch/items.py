@@ -27,3 +27,32 @@ class MainlandCapitalInHKItem(scrapy.Item):
     shareholding = scrapy.Field()
     shareholding_percent = scrapy.Field()
 
+
+class TradeTopTenItem(scrapy.Item):
+    market = scrapy.Field()
+    direction = scrapy.Field()
+    trading_date = scrapy.Field()
+    rank = scrapy.Field()
+    stock_code = scrapy.Field()
+    stock_name = scrapy.Field()
+    buy_turnover = scrapy.Field()
+    sell_turnover = scrapy.Field()
+    total_turnover = scrapy.Field()
+
+
+class TradeOverviewItem(scrapy.Item):
+    market = scrapy.Field()
+    direction = scrapy.Field()
+    trading_date = scrapy.Field()
+    total_turnover = scrapy.Field()
+    buy_turnover = scrapy.Field()
+    sell_turnover = scrapy.Field()
+    total_trade_count = scrapy.Field()
+    buy_trade_count = scrapy.Field()
+    sell_trade_count = scrapy.Field()
+    dqb = scrapy.Field()
+    dqb_ratio = scrapy.Field()
+
+
+
+
